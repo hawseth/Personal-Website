@@ -14,6 +14,11 @@ body {
     margin-right: 1.5rem;
     font-size: 1rem;
 }
+@media only screen and (max-width: 500px) {
+  .navbar-nav .nav-link {
+      margin-right: 0.5rem;
+  }
+}
 .navbar-toggler {
     border: none;
 }
