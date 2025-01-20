@@ -122,7 +122,7 @@ body {
   height: auto;
   border-radius: 8px;
   transition: transform 0.2s ease;
-  filter: grayscale(50%);
+  filter: grayscale(0%);
 }
 
 @media only screen and (max-width: 500px) {
@@ -133,7 +133,7 @@ body {
 
 .portfolio-itemx img:hover {
   transform: scale(1.05);
-  filter: grayscale(0%);
+  filter: grayscale(25%);
 }
 .portfolio-itemx a {
   position: absolute;
